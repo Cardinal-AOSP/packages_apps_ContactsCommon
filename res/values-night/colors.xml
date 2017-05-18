@@ -1,0 +1,93 @@
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<resources>
+    <!-- Background color corresponding to the holo list 9-patch. -->
+    <color name="holo_list_background_color">@*android:color/cardinal_dark_indigo</color>
+
+    <!-- Divider color for header separator -->
+    <color name="primary_text_color">#FFFFFF</color>
+
+    <color name="secondary_text_color">@color/dialtacts_secondary_text_color</color>
+
+    <!-- Text color for section header. -->
+    <color name="section_header_text_color">#FFFFFF</color>
+
+    <!-- Divider color for header separator -->
+    <color name="main_header_separator_color">@*android:color/cardinal_accent_neon_green</color>
+
+    <!-- Divider color for header separator -->
+    <color name="secondary_header_separator_color">@*android:color/cardinal_accent_neon_green</color>
+
+    <!-- Color of the theme of the People app -->
+    <color name="people_app_theme_color">#FFFFFF</color>
+
+    <!-- Color of the theme of the Dialer app -->
+    <color name="dialtacts_theme_color">#FFFFFF</color>
+
+    <!-- Color of image view placeholder. -->
+    <color name="image_placeholder">@*android:color/cardinal_accent_neon_green</color>
+
+    <!-- Primary text color in the Phone app -->
+    <color name="dialtacts_primary_text_color">#FFFFFF</color>
+
+    <!-- Secondary text color in the Phone app -->
+    <color name="dialtacts_secondary_text_color">#FFFFFF</color>
+
+    <!-- Background color of action bars. Ensure this stays in sync with packages/Telephony
+         actionbar_background_color. -->
+    <color name="actionbar_background_color">@*android:color/cardinal_light_indigo</color>
+    <!-- Color for icons in the actionbar -->
+    <color name="actionbar_icon_color">#ffffff</color>
+    <!-- Darker version of the actionbar color. Used for the status bar and navigation bar colors. -->
+    <color name="actionbar_background_color_dark">@*android:color/cardinal_dark_indigo</color>
+
+    <color name="tab_accent_color">@*android:color/cardinal_accent_neon_green</color>
+    <color name="tab_unread_count_background_color">@*android:color/cardinal_dark_indigo</color>
+
+    <!-- Color of the title to the Frequently Contacted section -->
+    <color name="frequently_contacted_title_color">@*android:color/cardinal_accent_neon_green</color>
+
+    <!-- Text color of the search box text as entered by user  -->
+    <color name="searchbox_text_color">#FFFFFF</color>
+    <!-- Background color of the search box -->
+    <color name="searchbox_background_color">@*android:color/cardinal_light_indigo</color>
+
+    <color name="searchbox_hint_text_color">#FFFFFF</color>
+
+    <color name="search_shortcut_icon_color">@color/dialtacts_theme_color</color>
+
+    <!-- Color of the background of the contact detail and editor pages -->
+    <color name="background_primary">@*android:color/cardinal_dark_indigo</color>
+    <color name="contact_all_list_background_color">@*android:color/cardinal_dark_indigo</color>
+
+    <!-- Tint color for the call subject history icon. -->
+    <color name="call_subject_history_icon">@*android:color/cardinal_accent_neon_green</color>
+
+    <!-- Divider line on the call subject dialog. -->
+    <color name="call_subject_divider">@*android:color/cardinal_light_indigo</color>
+
+    <!-- Text color for the SEND & CALL button on the call subject dialog. -->
+    <color name="call_subject_button">#00c853</color>
+
+    <!-- Background color for the call subject history view. -->
+    <color name="call_subject_history_background">@*android:color/cardinal_light_indigo</color>
+    <color name="search_video_call_icon_tint">@color/searchbox_hint_text_color</color>
+
+    <color name="frequent_contact_text_color">@android:color/white</color>
+    <color name="contact_tile_text_color">#FFFFFFFF</color>
+    <color name="back_arrow_icon_tint_color">#FFFFFF</color>
+</resources>
