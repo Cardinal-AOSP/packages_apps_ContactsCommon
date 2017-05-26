@@ -26,12 +26,6 @@
     <!-- Text color for section header. -->
     <color name="section_header_text_color">#FFFFFF</color>
 
-    <!-- Divider color for header separator -->
-    <color name="main_header_separator_color">@*android:color/cardinal_accent_neon_green</color>
-
-    <!-- Divider color for header separator -->
-    <color name="secondary_header_separator_color">@*android:color/cardinal_accent_neon_green</color>
-
     <!-- Color of the theme of the People app -->
     <color name="people_app_theme_color">#FFFFFF</color>
 
@@ -46,17 +40,6 @@
 
     <!-- Secondary text color in the Phone app -->
     <color name="dialtacts_secondary_text_color">#FFFFFF</color>
-
-    <!-- Background color of action bars. Ensure this stays in sync with packages/Telephony
-         actionbar_background_color. -->
-    <color name="actionbar_background_color">@*android:color/cardinal_light_indigo</color>
-    <!-- Color for icons in the actionbar -->
-    <color name="actionbar_icon_color">#ffffff</color>
-    <!-- Darker version of the actionbar color. Used for the status bar and navigation bar colors. -->
-    <color name="actionbar_background_color_dark">@*android:color/cardinal_dark_indigo</color>
-
-    <color name="tab_accent_color">@*android:color/cardinal_accent_neon_green</color>
-    <color name="tab_unread_count_background_color">@*android:color/cardinal_dark_indigo</color>
 
     <!-- Color of the title to the Frequently Contacted section -->
     <color name="frequently_contacted_title_color">@*android:color/cardinal_accent_neon_green</color>
